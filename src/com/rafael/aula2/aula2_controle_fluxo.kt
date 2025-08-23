@@ -12,4 +12,15 @@ fun main() {
 
     val result = if (age >= 18) "Maior de idade" else "Menor de idade"
     println(result)
+
+    val grade = 8
+
+    val situation = if (grade >= 7) {
+        "Aprovado"
+    } else if (grade >= 5) {
+        "Recuperação"
+    } else {
+        "Reprovado"
+    }
+    println(situation)
 }
