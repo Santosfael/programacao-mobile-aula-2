@@ -5,6 +5,9 @@ fun main() {
     // val = value (não pode ser alterado)
     val name = "Rafael Rocha"
 
-    //name = "João"
+    // var = variable (pode ser mudado)
+    var age = 29
+
+    age = 31
 }
 
