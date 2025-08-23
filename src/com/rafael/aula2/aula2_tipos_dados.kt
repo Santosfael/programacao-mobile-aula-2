@@ -20,4 +20,7 @@ fun main() {
         32 anos
     """.trimIndent()
     val string3: String = "${char}"
+
+    // Boolean
+    val boolean: Boolean = false
 }
