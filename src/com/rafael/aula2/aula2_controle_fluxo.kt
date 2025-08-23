@@ -23,4 +23,13 @@ fun main() {
         "Reprovado"
     }
     println(situation)
+
+    val message = if (age >= 18) {
+        println("Verificando idade...")
+        "Maior de idade"
+    } else {
+        println("Verificando idade...")
+        "Menor de idade"
+    }
+    println(message)
 }
