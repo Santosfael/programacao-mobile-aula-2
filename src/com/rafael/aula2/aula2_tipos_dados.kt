@@ -23,4 +23,9 @@ fun main() {
 
     // Boolean
     val boolean: Boolean = false
+
+    val text = "Kotlin" // Tipo deduzido como String
+    val age = 42       // Tipo deduzido como Int
+    val tax = 3.14      // Tipo deduzido como Double
+    val isValid = false // Tipo deduzido como Boolean
 }
