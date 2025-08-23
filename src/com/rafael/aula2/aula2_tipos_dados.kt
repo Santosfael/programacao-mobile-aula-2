@@ -11,4 +11,13 @@ fun main() {
     // Numéricos - Flutuantes
     val float: Float = 32f
     var double: Double = 3.14
+
+    // Literais
+    val char: Char = 'c'
+    val string: String = "Olá mundo"
+    val string2: String = """
+        Rafael,
+        32 anos
+    """.trimIndent()
+    val string3: String = "${char}"
 }
