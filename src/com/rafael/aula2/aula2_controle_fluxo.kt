@@ -64,4 +64,12 @@ fun main() {
         2, 3, 4, 5, 6 -> println("Dia útil")
         else -> println("Dia inválido")
     } // Saída: Dia útil
+
+    val number = -8
+
+    when {
+        number < 0 -> println("Negativo")
+        number == 0 -> println("Zero")
+        number > 0 -> println("Positivo")
+    }
 }
