@@ -33,7 +33,7 @@ fun main() {
     }
     println(message)
 
-    val day = 3
+    var day = 3
 
     val dayName = when (day) {
         1 -> "Domingo"
@@ -56,4 +56,12 @@ fun main() {
         in 60..150 -> println("Idoso")
         else -> println("Idade inválida")
     }
+
+    day = 6
+
+    when (day) {
+        1, 7 -> println("Final de semana")
+        2, 3, 4, 5, 6 -> println("Dia útil")
+        else -> println("Dia inválido")
+    } // Saída: Dia útil
 }
